@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { searchByName, getRaces, getClasses } from '../services/api.js'
 
-export default function ListadoPersonajes() {
+export default function CharacterList() {
     const [search, setSearch] = useState("");
 
     const characters = useQuery({
@@ -35,7 +35,7 @@ export default function ListadoPersonajes() {
             {characters.isError && (
                 <div role = "alert">
                     <p>{characters.error.message}</p>
-                    <button onclick = {() => characters.refetch()}>Reintentar</button>
+                    <button onClick = {() => characters.refetch()}>Reintentar</button>
                 </div>
             )}
 

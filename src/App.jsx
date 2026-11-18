@@ -1,4 +1,4 @@
-import CharaterList from './components/CharacterList'
+import CharacterList from './components/CharacterList'
 function App() {
   return (
     <>
