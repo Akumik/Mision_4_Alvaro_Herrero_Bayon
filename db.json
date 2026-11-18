@@ -1,0 +1,346 @@
+{
+  "characters": [
+    {
+      "id": "1",
+      "name": "Vex Sombraluna",
+      "race": "elfo",
+      "subrace": "alto-elfo",
+      "class": "picaro",
+      "subclass": "embaucador-arcano",
+      "level": 5
+    }
+  ],
+  "races": [
+    {
+      "id": "draconido",
+      "name": "Dracónido",
+      "subraces": []
+    },
+    {
+      "id": "enano",
+      "name": "Enano",
+      "subraces": [
+        {
+          "id": "colina",
+          "name": "Enano de las colinas"
+        },
+        {
+          "id": "montana",
+          "name": "Enano de las montañas"
+        }
+      ]
+    },
+    {
+      "id": "elfo",
+      "name": "Elfo",
+      "subraces": [
+        {
+          "id": "alto-elfo",
+          "name": "Alto elfo"
+        },
+        {
+          "id": "elfo-del-bosque",
+          "name": "Elfo del bosque"
+        },
+        {
+          "id": "drow",
+          "name": "Drow"
+        }
+      ]
+    },
+    {
+      "id": "gnomo",
+      "name": "Gnomo",
+      "subraces": [
+        {
+          "id": "gnomo-del-bosque",
+          "name": "Gnomo del bosque"
+        },
+        {
+          "id": "gnomo-de-las-rocas",
+          "name": "Gnomo de las rocas"
+        }
+      ]
+    },
+    {
+      "id": "semielfo",
+      "name": "Semielfo",
+      "subraces": []
+    },
+    {
+      "id": "semiorco",
+      "name": "Semiorco",
+      "subraces": []
+    },
+    {
+      "id": "mediano",
+      "name": "Mediano",
+      "subraces": [
+        {
+          "id": "piesligeros",
+          "name": "Piesligeros"
+        },
+        {
+          "id": "fornido",
+          "name": "Fornido"
+        }
+      ]
+    },
+    {
+      "id": "humano",
+      "name": "Humano",
+      "subraces": []
+    },
+    {
+      "id": "tiefling",
+      "name": "Tiefling",
+      "subraces": []
+    }
+  ],
+  "classes": [
+    {
+      "id": "barbaro",
+      "name": "Bárbaro",
+      "subclassLevel": 3,
+      "subclasses": [
+        {
+          "id": "berserker",
+          "name": "Senda del berserker"
+        },
+        {
+          "id": "guerrero-totemico",
+          "name": "Senda del guerrero totémico"
+        }
+      ]
+    },
+    {
+      "id": "bardo",
+      "name": "Bardo",
+      "subclassLevel": 3,
+      "subclasses": [
+        {
+          "id": "colegio-del-saber",
+          "name": "Colegio del Saber"
+        },
+        {
+          "id": "colegio-del-valor",
+          "name": "Colegio del Valor"
+        }
+      ]
+    },
+    {
+      "id": "brujo",
+      "name": "Brujo",
+      "subclassLevel": 1,
+      "subclasses": [
+        {
+          "id": "archihada",
+          "name": "El Archihada"
+        },
+        {
+          "id": "infernal",
+          "name": "El Infernal"
+        },
+        {
+          "id": "gran-antiguo",
+          "name": "El Gran Antiguo"
+        }
+      ]
+    },
+    {
+      "id": "clerigo",
+      "name": "Clérigo",
+      "subclassLevel": 1,
+      "subclasses": [
+        {
+          "id": "dominio-del-conocimiento",
+          "name": "Dominio del Conocimiento"
+        },
+        {
+          "id": "dominio-de-la-vida",
+          "name": "Dominio de la Vida"
+        },
+        {
+          "id": "dominio-de-la-luz",
+          "name": "Dominio de la Luz"
+        },
+        {
+          "id": "dominio-de-la-naturaleza",
+          "name": "Dominio de la Naturaleza"
+        },
+        {
+          "id": "dominio-de-la-tormenta",
+          "name": "Dominio de la Tormenta"
+        },
+        {
+          "id": "dominio-del-engano",
+          "name": "Dominio del Engaño"
+        },
+        {
+          "id": "dominio-de-la-guerra",
+          "name": "Dominio de la Guerra"
+        }
+      ]
+    },
+    {
+      "id": "druida",
+      "name": "Druida",
+      "subclassLevel": 2,
+      "subclasses": [
+        {
+          "id": "circulo-de-la-tierra",
+          "name": "Círculo de la Tierra"
+        },
+        {
+          "id": "circulo-de-la-luna",
+          "name": "Círculo de la Luna"
+        }
+      ]
+    },
+    {
+      "id": "explorador",
+      "name": "Explorador",
+      "subclassLevel": 3,
+      "subclasses": [
+        {
+          "id": "cazador",
+          "name": "Cazador"
+        },
+        {
+          "id": "senor-de-las-bestias",
+          "name": "Señor de las bestias"
+        }
+      ]
+    },
+    {
+      "id": "guerrero",
+      "name": "Guerrero",
+      "subclassLevel": 3,
+      "subclasses": [
+        {
+          "id": "campeon",
+          "name": "Campeón"
+        },
+        {
+          "id": "maestro-de-batalla",
+          "name": "Maestro de batalla"
+        },
+        {
+          "id": "caballero-arcano",
+          "name": "Caballero arcano"
+        }
+      ]
+    },
+    {
+      "id": "hechicero",
+      "name": "Hechicero",
+      "subclassLevel": 1,
+      "subclasses": [
+        {
+          "id": "linaje-draconico",
+          "name": "Linaje dracónico"
+        },
+        {
+          "id": "magia-salvaje",
+          "name": "Magia salvaje"
+        }
+      ]
+    },
+    {
+      "id": "mago",
+      "name": "Mago",
+      "subclassLevel": 2,
+      "subclasses": [
+        {
+          "id": "abjuracion",
+          "name": "Escuela de Abjuración"
+        },
+        {
+          "id": "conjuracion",
+          "name": "Escuela de Conjuración"
+        },
+        {
+          "id": "adivinacion",
+          "name": "Escuela de Adivinación"
+        },
+        {
+          "id": "encantamiento",
+          "name": "Escuela de Encantamiento"
+        },
+        {
+          "id": "evocacion",
+          "name": "Escuela de Evocación"
+        },
+        {
+          "id": "ilusion",
+          "name": "Escuela de Ilusión"
+        },
+        {
+          "id": "nigromancia",
+          "name": "Escuela de Nigromancia"
+        },
+        {
+          "id": "transmutacion",
+          "name": "Escuela de Transmutación"
+        }
+      ]
+    },
+    {
+      "id": "monje",
+      "name": "Monje",
+      "subclassLevel": 3,
+      "subclasses": [
+        {
+          "id": "camino-de-la-mano-abierta",
+          "name": "Camino de la Mano Abierta"
+        },
+        {
+          "id": "camino-de-la-sombra",
+          "name": "Camino de la Sombra"
+        },
+        {
+          "id": "camino-de-los-cuatro-elementos",
+          "name": "Camino de los Cuatro Elementos"
+        }
+      ]
+    },
+    {
+      "id": "paladin",
+      "name": "Paladín",
+      "subclassLevel": 3,
+      "subclasses": [
+        {
+          "id": "juramento-de-devocion",
+          "name": "Juramento de Devoción"
+        },
+        {
+          "id": "juramento-de-los-ancestros",
+          "name": "Juramento de los Ancestros"
+        },
+        {
+          "id": "juramento-de-venganza",
+          "name": "Juramento de Venganza"
+        }
+      ]
+    },
+    {
+      "id": "picaro",
+      "name": "Pícaro",
+      "subclassLevel": 3,
+      "subclasses": [
+        {
+          "id": "ladron",
+          "name": "Ladrón"
+        },
+        {
+          "id": "asesino",
+          "name": "Asesino"
+        },
+        {
+          "id": "embaucador-arcano",
+          "name": "Embaucador arcano"
+        }
+      ]
+    }
+  ]
+}
