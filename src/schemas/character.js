@@ -1,8 +1,8 @@
-import { mime, z } from 'zod'
+import { z } from 'zod'
 
-const SUBCLASS_LEVEL = 3;
+export const SUBCLASS_LEVEL = 3;
 
-export fucntion createCharacterSchema(races = [], classes = []) {
+export function createCharacterSchema(races = [], classes = []) {
     return z.object({
         name: z.string().trim().min(2, { error: "El nombre debe tener al menos 2 caracteres" })
         .max(40, { error: "El nombre no puede tener más de 40 caracteres" }),
@@ -28,11 +28,11 @@ export fucntion createCharacterSchema(races = [], classes = []) {
 
         if(cls){
             if (data.level >= SUBCLASS_LEVEL && !data.subclass) {
-                ctx.addIssue({code: "custom", path: ["subclass"], message: 'A nivel ${data.level} tu ${cls.name} debe tener una subclase'});
+                ctx.addIssue({code: "custom", path: ["subclass"], message: `A nivel ${data.level} tu ${cls.name} debe tener una subclase`});
             } else if (data.level < SUBCLASS_LEVEL && data.subclass) {
-                ctx.addIssue({ code: "custom", path: ["subclass"], message: 'La subclase se elige a nivel ${SUBCLASS_LEVEL}'});
+                ctx.addIssue({ code: "custom", path: ["subclass"], message: `La subclase se elige a nivel ${SUBCLASS_LEVEL}`});
             } else if (data.subclass && !cls.subclasses.some((sc) => sc.id === data.subclass)) {
-                ctx.addIssue({ code: "custom", path: ["subclass"], message: 'Esa subclase no es de ${cls.name}'});
+                ctx.addIssue({ code: "custom", path: ["subclass"], message: `Esa subclase no es de ${cls.name}`});
             }
         }
     });

@@ -1,13 +1,22 @@
 {
   "characters": [
     {
-      "id": "1",
-      "name": "Vex Sombraluna",
+        "name": "Vex Sombraluna",
+        "race": "elfo",
+        "subrace": "alto-elfo",
+        "class": "picaro",
+        "subclass": "embaucador-arcano",
+        "level": 5,
+        "id": "1"
+    },
+    {
+      "name": "Pepe",
       "race": "elfo",
-      "subrace": "alto-elfo",
-      "class": "picaro",
-      "subclass": "embaucador-arcano",
-      "level": 5
+      "subrace": "drow",
+      "class": "brujo",
+      "subclass": "infernal",
+      "level": 3,
+      "id": "fT11lDh8uUQ"
     }
   ],
   "races": [
@@ -342,5 +351,6 @@
         }
       ]
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
